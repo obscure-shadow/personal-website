@@ -3,10 +3,61 @@ body {
   font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
   color: green
 }
+
+/* nav bar elements: */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+.home {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: green;
+}
+
+li a:visited {
+  color: #d4d;
+}
+/* main header elements: */
+.title {
+  display: block;
+  margin-top: 30px;
+  padding: 20px;
+}
+.h1 {
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 20px;
+  border: 2px dashed green;
+}
+
+article {
+  padding: 15px;
+}
+
+/* <----- technologies icon area ----> */
 .icon_list {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid green;
+  border: 2px dashed green;
+  padding: 15px;
 }
 
 .icon {
@@ -19,4 +70,22 @@ body {
 
 .joomla, .github {
   filter: invert(80%);
+}
+
+.left{
+  display: inline-block;
+  border: 2px dashed green;
+  padding: 10px;
+  width: 45%;
+  float: left;
+}
+
+.right{
+  display: inline-block;
+  border: 2px dashed green;
+  padding: 10px;
+  width: 45%;
+}
+.row {
+
 }
