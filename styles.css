@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+  color: green
+}
+.icon_list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid green;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  padding: 2px;
+  border: 2px;
+  margin: 5px;
+}
+
+.joomla, .github {
+  filter: invert(80%);
+}
