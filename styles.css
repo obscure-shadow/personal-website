@@ -1,7 +1,7 @@
 body {
   background-color: black;
   font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
-  color: green
+  color: #4cc355;
 }
 
 /* nav bar elements: */
@@ -29,7 +29,7 @@ li a {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
-  color: green;
+  color: #4cc355;
 }
 
 li a:visited {
@@ -45,7 +45,7 @@ li a:visited {
   display: inline-block;
   padding: 10px 25px;
   margin: 20px;
-  border: 2px dashed green;
+  border: 2px dashed #4cc355;
 }
 
 article {
@@ -56,7 +56,7 @@ article {
 .icon_list {
   display: flex;
   flex-wrap: wrap;
-  border: 2px dashed green;
+  border: 2px dashed #4cc355;
   padding: 15px;
 }
 
@@ -74,7 +74,7 @@ article {
 
 .left{
   display: inline-block;
-  border: 2px dashed green;
+  border: 2px dashed #4cc355;
   padding: 10px;
   width: 45%;
   float: left;
@@ -83,7 +83,7 @@ article {
 
 .right{
   display: inline-block;
-  border: 2px dashed green;
+  border: 2px dashed #4cc355;
   padding: 10px;
   width: 45%;
   margin: 5px;
