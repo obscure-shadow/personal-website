@@ -1,0 +1,27 @@
+/* <--- left column styling ---> */
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.left_side{
+  display: inline-block;
+  width: 25%;
+}
+
+.heading{
+  display: block;
+  text-align: center;
+}
+
+h1, h2, .contact {
+  margin: 0;
+}
+
+/* <--- righ column styling ---> */
+
+.right_side{
+  display: inline-block;
+  width: 74%;
+}
