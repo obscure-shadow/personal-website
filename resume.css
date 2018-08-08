@@ -10,6 +10,15 @@ img {
   width: 25%;
 }
 
+.left_column{
+  display: block;
+}
+.right_side{
+  display: inline-block;
+  width: 70%;
+  float: right;
+}
+
 .heading{
   display: block;
   text-align: center;
