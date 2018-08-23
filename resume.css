@@ -1,7 +1,7 @@
-/* <--- left column styling ---> */
 * {
     box-sizing: border-box;
     font-family: roboto, arial;
+    font-size: 95%;
 }
 
 img {
@@ -34,12 +34,11 @@ img {
   position: relative;
 }
 .row2 {
-  background-color: grey;
   overflow: hidden;
 }
 
 .row{
-  background-color: green;
+  background-color: #50a6c2;
   right: 67%;
 }
 
