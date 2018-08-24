@@ -73,24 +73,23 @@ article {
   filter: invert(80%);
 }
 
-/* <---- project divs area ---> */
+/* <---- columnar responsive boxes ---> */
 
-.left{
-  display: inline-block;
+.left, .right{
   border: 2px dashed #4cc355;
   padding: 10px;
-  width: 45%;
   float: left;
   margin: 15px;
+  flex-grow: 1;
 }
 
-.right{
-  display: inline-block;
-  border: 2px dashed #4cc355;
-  padding: 10px;
-  width: 45%;
-  margin: 15px;
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.row {
-
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
