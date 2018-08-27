@@ -33,7 +33,7 @@ li a {
   color: #4cc355;
 }
 
-li a:visited {
+nav li a:visited {
   color: #d4d;
 }
 /* main header elements: */
@@ -82,13 +82,18 @@ article {
   margin: 15px;
   flex-grow: 1;
 }
+.col {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
 
 .row{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.row:after {
+.row:after, .col:after {
   content: "";
   display: table;
   clear: both;
