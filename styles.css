@@ -119,3 +119,15 @@ article {
   align-content: center;
   flex-wrap: wrap;
 }
+
+/* Stuff for responsive layout, should probably */
+/* have gone first... */
+
+@media only screen and (max-width: 988px){
+
+  .left, .right {
+    min-width: 100%;
+  }
+
+}
+
