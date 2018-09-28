@@ -35,7 +35,7 @@ li {
   float: left;
 }
 
-li a {
+nav a {
   display: block;
   padding: 14px 20px;
   text-decoration: none;
@@ -45,6 +45,10 @@ li a {
 
 nav li a:visited {
   color: #d4d;
+}
+
+nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* main header elements: */
@@ -128,6 +132,72 @@ article {
   .left, .right {
     min-width: 100%;
   }
-
 }
 
+.nav-btn {
+  display: none;
+}
+
+#nav-check {
+  display: none;
+}
+
+@media (max-width:988px) {
+  .nav-btn {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #333;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 16px;
+  }
+
+  label:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+  }
+
+  .nav-links {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-content: flex-start;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+
+  .nav-links  a {
+      display: block;
+      width: 100%;
+    }
+
+  #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+
+  #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
