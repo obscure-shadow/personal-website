@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: roboto, arial;
-    font-size: 99%;
 }
 
 img {
@@ -11,9 +10,14 @@ img {
   border: 2px solid black;
 }
 
+.exp {
+  margin-top: 0 !important;
+}
+
 .side{
   float: left;
   padding: 8px;
+  padding-top: 0px;
 }
 
 .left, .right{
@@ -56,6 +60,10 @@ img {
 h1, h2, h3, h4, h5, .contact {
   text-align: center;
   margin: 8px;
+}
+
+.right > ul{
+  font-size: 93%;
 }
 
 .right > h1, .right > h2, .right > h3, .right > h4, .right > h5 {
