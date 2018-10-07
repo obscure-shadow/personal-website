@@ -62,3 +62,22 @@ ul {
   list-style-position: inside;
   padding: 0;
 }
+
+img {
+  height: 1em;
+}
+
+.contact {
+  list-style: none;
+  text-decoration: none;
+  list-style-position: outside;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
